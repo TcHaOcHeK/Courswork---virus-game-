@@ -9,11 +9,7 @@ namespace courses_work___viruses_game
         {
             InitializeComponent();
         }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-            throw new System.NotImplementedException();
-        }
+        
 
         private void button1_Click(object sender, EventArgs e)
         {
