@@ -23,5 +23,12 @@ namespace courses_work___viruses_game
             gm.Show();
             this.Hide();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Rules rl = new Rules();
+            rl.Show();
+            this.Hide();
+        }
     }
 }
