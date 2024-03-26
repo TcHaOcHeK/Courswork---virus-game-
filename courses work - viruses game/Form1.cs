@@ -30,5 +30,7 @@ namespace courses_work___viruses_game
             rl.Show();
             this.Hide();
         }
+
+        
     }
 }
