@@ -40,19 +40,19 @@ namespace courses_work___viruses_game
             // pictureBox1
             // 
             this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
-            this.pictureBox1.Location = new System.Drawing.Point(10, 18);
+            this.pictureBox1.Location = new System.Drawing.Point(10, 12);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(814, 632);
+            this.pictureBox1.Size = new System.Drawing.Size(818, 321);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(837, 33);
+            this.button1.Location = new System.Drawing.Point(707, 355);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(71, 37);
+            this.button1.Size = new System.Drawing.Size(120, 45);
             this.button1.TabIndex = 1;
-            this.button1.Text = "button1";
+            this.button1.Text = "вернуться в меню";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -60,7 +60,7 @@ namespace courses_work___viruses_game
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(919, 656);
+            this.ClientSize = new System.Drawing.Size(839, 412);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox1);
             this.Name = "Rules";

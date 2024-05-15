@@ -146,8 +146,7 @@ namespace courses_work___viruses_game
                 if (whoTurn){
                     if (logicClick())
                         logicPaint();
-                    textBox1.Text = Convert.ToString(xClick) + "  " + Convert.ToString(yClick) + "  " +
-                                    Convert.ToString(e.X) + "  " + Convert.ToString(e.Y);
+                    
                 }
                 
             }
@@ -222,9 +221,7 @@ namespace courses_work___viruses_game
                 xClick = Math.Abs(op[n].xj - op[n].xi) < Math.Abs(op[n].yj - op[n].yi) ? op[n].xi + dx : op[n].xi;
                 yClick = Math.Abs(op[n].xj - op[n].xi) >= Math.Abs(op[n].yj - op[n].yi) ? op[n].yi + dy : op[n].yi;
             }
-            textBox1.Text = Convert.ToString( op[n].xi) + "  " + Convert.ToString(op[n].yi) + "  " +Convert.ToString(xClick) + "  " + Convert.ToString(yClick) + "  " +
-                            Convert.ToString(op[n].xj - op[n].xi) + "  " + Convert.ToString(op[n].xj - op[n].xi);
-
+            
             while (n < op.Count)
             {
                 
@@ -249,8 +246,7 @@ namespace courses_work___viruses_game
                         xClick = Math.Abs(op[n].xj - op[n].xi) < Math.Abs(op[n].yj - op[n].yi) ? op[n].xi + dx : op[n].xi;
                         yClick = Math.Abs(op[n].xj - op[n].xi) >= Math.Abs(op[n].yj - op[n].yi) ? op[n].yi + dy : op[n].yi;
                     }
-                    textBox1.Text = Convert.ToString( op[n].xi) + "  " + Convert.ToString(op[n].yi) + "  " +Convert.ToString(xClick) + "  " + Convert.ToString(yClick) + "  " +
-                                    Convert.ToString(op[n].xj - op[n].xi) + "  " + Convert.ToString(op[n].xj - op[n].xi);
+                    
                 }
             }
             if(flag)

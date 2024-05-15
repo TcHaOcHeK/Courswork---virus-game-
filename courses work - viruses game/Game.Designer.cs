@@ -34,7 +34,6 @@ namespace courses_work___viruses_game
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Game));
             this.button1 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.button2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -42,9 +41,9 @@ namespace courses_work___viruses_game
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(474, 12);
+            this.button1.Location = new System.Drawing.Point(526, 17);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(145, 71);
+            this.button1.Size = new System.Drawing.Size(64, 60);
             this.button1.TabIndex = 0;
             this.button1.Text = "Меню";
             this.button1.UseVisualStyleBackColor = true;
@@ -63,26 +62,18 @@ namespace courses_work___viruses_game
             this.pictureBox1.Paint += new System.Windows.Forms.PaintEventHandler(this.pictureBox1_Paint);
             this.pictureBox1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pictureBox1_MouseDown);
             // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(186, 38);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(194, 20);
-            this.textBox1.TabIndex = 2;
-            // 
             // panel1
             // 
-            this.panel1.Location = new System.Drawing.Point(12, 12);
+            this.panel1.Location = new System.Drawing.Point(39, 17);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(64, 60);
             this.panel1.TabIndex = 3;
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(95, 22);
+            this.button2.Location = new System.Drawing.Point(229, 23);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(79, 49);
+            this.button2.Size = new System.Drawing.Size(165, 49);
             this.button2.TabIndex = 4;
             this.button2.Text = "Пропустить ход";
             this.button2.UseVisualStyleBackColor = true;
@@ -97,7 +88,6 @@ namespace courses_work___viruses_game
             this.ClientSize = new System.Drawing.Size(631, 650);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.button1);
             this.Cursor = System.Windows.Forms.Cursors.Arrow;
@@ -108,14 +98,11 @@ namespace courses_work___viruses_game
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
         }
 
         private System.Windows.Forms.Button button2;
 
         private System.Windows.Forms.Panel panel1;
-
-        private System.Windows.Forms.TextBox textBox1;
 
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.PictureBox pictureBox1;
